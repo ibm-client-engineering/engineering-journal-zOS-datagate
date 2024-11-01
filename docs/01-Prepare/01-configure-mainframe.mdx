@@ -1,0 +1,86 @@
+---
+title: Configure Mainframe
+description: sample page
+custom_edit_url: null
+---
+
+
+### Personnel Required
+Mainframe Systems Administrator
+z/OS Systems Programmer
+Db2 z/OS Administrator
+
+## Verify and Install Mandatory PTFs for Db2 for z/OS Version
+### Order the IBM Data Gate for z/OS Software
+Understand the IBM Part number (PID) For IBM Data Gate for z/OS: 56798-DG3
+
+## Access to Mainframe: Software Management tool (ZOSMF)
+The following details are needed to access the Mainframe:
+
+###	System Administrator URL for ZOSMF
+The SysAdmin URL for ZOSMF. Should look like this
+
+### Obtain User TSO ID and Password
+
+User credentials
+### Procedure Parameters for IBM Personal Communications (PCOM)
+The parameters for PCOM
+
+##	Install one of two products: Data Gate for z/OS DBS for Db2 z/OS replication
+
+### Install Data Gate for z/OS DBS
+Here is how to install Data Gate for z/OS DBS:
+
+### Db2 z/OS replication
+Here is how to install Db2 z/OS replication
+
+## Verify the Correct Product Type installed for Data Gate Db2 Replication
+###	Software Instances (products, features and FMIDs)
+The following software instances are needed
+
+### Define the Portable Software Instance to ZOSMF
+How to define the Portable Software Instance:
+
+### Enter a name such as DG3AADB2 (analytics accelerator for Db2 z/OS which is the base software of the Db2 z/OS replication product that Data Gate uses)
+
+### View products, features, and FMID option
+Review products, features, and FMID option, and make your selection. Here is an example of the selections:
+
+## Ensure The TSO ID as Root Authority for z/OS Unix Systems Services (USS)
+### Temporary Root access enables the un unpacking of the installation *.pax.Z  files for Unix Sys-tem Services
+
+## Install IBM Data Gate for z/OS Software
+### Submit the Installation of the Data Gate for z/OS Job Control Language (JCL) 
+### Creates the SMP/E installation libraries
+
+## Deploy IBM Data Gate for z/OS (DG3AADB2)
+###	View and Deploy DG3AADB2
+### Workflow Tab	
+## Configure IBM Data Gate for z/OS
+### Modify and submt job DB2B.DG3DB2.AQT.SAQTSAMP(AQTSSLDH)
+## Enable RACF and TCPIP on the Mainframe 
+### Modify and submit job DB2B.DG3DB2.AQT.SAQTSAMP(AQTSSLDG)
+### Set up RACF profiles
+	
+Create Key Ring (KeyStore) and Password
+### Enables Two Way Secured Transmissions
+
+## Test The KeyRing on Mainframe z/OS 
+### openssl s_client -host 129.40.130.1 -port 448 -showcerts
+## Application Transparent Transport Layer (AT-TLS)
+### Data Gate for z/OS Implications and Requirements
+### Set Inbound and Outbound TLS Policy for Db2 for z/OS
+## Configure Profile Agent (Pagent) Job The AT-TLS policy agent (PAGENT) 
+### Configure Pagent to utilize Key Ring (KeyStore) and Certificate
+### Obtain the CP4D/WXDATA Route Host and Port
+## Export Certificate for CP4D/WXDATA Cluster
+## Verify z/OS System Logger is Enables and Running
+## Create and Modify DB2 z/OS Started Task
+### Create and Modify DB2 DDF secure port for Data Gate instance in CP4D/WXDATA
+### Verify Db2/z is enabled with Secure Port
+## Create log user DG3REP for both Db2 z/OS and VSAM logs for Replication
+
+## Modify TCP/IP on z/OS 
+### Turn TTLS on in TCPIP (Parmlib Member)
+
+### Create Appropriate Db2 for z/OS Tables to Replicate
