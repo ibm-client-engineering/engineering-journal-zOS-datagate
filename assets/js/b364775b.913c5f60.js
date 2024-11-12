@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[1387],{4997:e=>{e.exports=JSON.parse('{"label":"log","permalink":"/engineering-journal-zOS-datagate/flight-logs/tags/log","allTagsPath":"/engineering-journal-zOS-datagate/flight-logs/tags","count":1,"unlisted":false}')}}]);

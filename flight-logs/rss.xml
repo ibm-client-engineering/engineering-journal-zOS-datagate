@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Watsonx.Data &amp; Data Gate Blog</title>
-        <link>https://ibm-client-engineering.github.io/engineering-journal-zOS-datagate/flight-logs</link>
+        <link>https://pages.github.ibm.com/ibm-client-engineering/engineering-journal-zOS-datagate/flight-logs</link>
         <description>Watsonx.Data &amp; Data Gate Blog</description>
         <lastBuildDate>Fri, 01 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Sample Flight Log 🛫]]></title>
-            <link>https://ibm-client-engineering.github.io/engineering-journal-zOS-datagate/flight-logs/sample-flight-log</link>
-            <guid>https://ibm-client-engineering.github.io/engineering-journal-zOS-datagate/flight-logs/sample-flight-log</guid>
+            <link>https://pages.github.ibm.com/ibm-client-engineering/engineering-journal-zOS-datagate/flight-logs/sample-flight-log</link>
+            <guid>https://pages.github.ibm.com/ibm-client-engineering/engineering-journal-zOS-datagate/flight-logs/sample-flight-log</guid>
             <pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Flight Log of Co-Creation Activities]]></description>
             <category>log</category>

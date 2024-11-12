@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[4253],{2803:e=>{e.exports=JSON.parse('[{"label":"log","permalink":"/ibm-client-engineering/engineering-journal-zOS-datagate/flight-logs/tags/log","count":1},{"label":"sprint","permalink":"/ibm-client-engineering/engineering-journal-zOS-datagate/flight-logs/tags/sprint","count":1}]')}}]);

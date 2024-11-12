@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[9970],{4811:e=>{e.exports=JSON.parse('{"permalink":"/ibm-client-engineering/engineering-journal-zOS-datagate/flight-logs","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Flight Logs"}')}}]);
