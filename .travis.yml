@@ -13,10 +13,10 @@ branches:
 jobs:
   include:
     - stage: build and deploy pages
-      before_install:
-        - bash update_docusaurus.sh $ORG $REPO $PAGES_URL
+      #before_install:
+      #  - bash update_docusaurus.sh $ORG $REPO $PAGES_URL
       install:
-        - yarn upgrade
+        #- yarn upgrade
 #        - yarn install --frozen-lockfile
         - yarn install
       script:
